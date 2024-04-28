@@ -1,0 +1,119 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey there",
+                "Hey"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Hey! How can I help you today?"
+            ]
+        },
+        {
+            "tag": "greeting_howareyou",
+            "patterns": [
+              "How are you",
+              "How are you doing",
+              "How's it going",
+              "What's up",
+              "How do you feel"
+            ],
+            "responses": [
+              "I'm doing great, thanks for asking!",
+              "I'm fine, how about you?",
+              "Doing well! How can I assist you today?",
+              "I'm just a bot, but I'm functioning at full capacity! How are you?"
+            ]  
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "Bye"
+            ],
+            "responses": [
+                "Goodbye!",
+                "Take care!",
+                "See you later!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Appreciate it"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Anytime!"
+            ]
+        },
+        {
+            "tag": "about_bot",
+            "patterns": [
+                "What are you?",
+                "Who are you?",
+                "Tell me about yourself"
+            ],
+            "responses": [
+                "I'm a chatbot designed to assist you with various tasks.",
+                "I'm an AI-powered chatbot here to help you."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What's your name?",
+                "Do you have a name?",
+                "Name?"
+            ],
+            "responses": [
+                "I'm Jarvis",
+                "You can call me Jarvis!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "How old are you?",
+                "Age?"
+            ],
+            "responses": [
+                "I'm an artificial intelligence, so I don't have an age in the way humans do.",
+                "I'm perpetually young!"
+            ]
+        },
+        {
+            "tag": "email",
+            "patterns": [
+                "Send an email",
+                "Compose an email",
+                "Email"
+            ],
+            "responses": [
+                "Sure! Who is the recipient?",
+                "Sure! Please provide the recipient's email address."
+            ]
+        },
+        {
+            "tag": "default",
+            "patterns": [
+                "Tell me a joke",
+                "Do you know any jokes?",
+                "Joke?"
+            ],
+            "responses": [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "I told my wife she was drawing her eyebrows too high. She looked surprised!"
+            ]
+        }
+    ]
+}
